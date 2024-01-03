@@ -1,0 +1,57 @@
+*{
+    font-family: 'Permanent Marker', cursive;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-imagen{
+    height: 100vh;
+ 
+    background-image: url(./images/globo.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    
+    
+    
+}
+
+.header-logo{
+    box-sizing: border-box;
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    height: 200px;
+    opacity: 0.6;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+
+}
+.header-logo h1{
+    opacity: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header-logo img{
+    height: 100px;
+    margin: 20px;
+}
+
+form{
+    position: relative;
+    width: 100%;
+    background-color: pink;
+}
