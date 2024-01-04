@@ -1,6 +1,4 @@
-*{
-    font-family: 'Permanent Marker', cursive;
-}
+
 
 body{
     margin: 0;
@@ -10,7 +8,7 @@ body{
 
 .container-imagen{
     height: 100vh;
- 
+    width: 40vw;
     background-image: url(./images/globo.jpg);
     background-position: left top;
     background-repeat: no-repeat;
@@ -18,6 +16,7 @@ body{
     color: white;
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: green;
@@ -26,7 +25,19 @@ body{
     
 }
 
+.container-imagen label{
+    position: fixed;
+    bottom: 0;
+    color: white;
+    margin-bottom: 5px;
+}
+
+a:visited{
+    color: white;
+}
+
 .header-logo{
+    font-family: 'Permanent Marker', cursive;
     box-sizing: border-box;
     width: 100%; /* Ajusta el ancho según tus necesidades */
     height: 200px;
@@ -53,5 +64,24 @@ body{
 form{
     position: relative;
     width: 100%;
-    background-color: pink;
+}
+
+.container-formulario{
+    background-color: #DFF5FF;
+    width: 100%;
+    padding: 100px;
+}
+
+.container-formulario h1{
+    margin-bottom: 100px;
+}
+
+.boton-formulario{
+    height: 70px;
+    width: 300px;
+    background-color: rgb(96, 77, 9);
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 20px;
 }
