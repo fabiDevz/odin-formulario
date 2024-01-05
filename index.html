@@ -35,32 +35,32 @@
             <fieldset>
                 <div class="inputs">
                     <label for="primer_nombre">Primer nombre</label><br>
-                    <input type="text" name="nombre" id="primer_nombre" maxlength="15" placeholder="Johnny">
+                    <input class = "inputValido" type="text" name="nombre" id="primer_nombre" minlength="3" maxlength="15" placeholder="Johnny">
                 </div>
 
                 <div class="inputs">
                     <label for="apellidos">Apellidos</label><br>
-                    <input type="text" name="apellidos" id="apellidos" maxlength="20" placeholder="Cage" >
+                    <input class = "inputValido" type="text" name="apellidos" id="apellidos" maxlength="20" placeholder="Cage" >
                 </div>
 
                 <div class="inputs">
                     <label for="telefono">Teléfono</label><br>
-                    <input type="text" name="telefono" id="telefono" placeholder="+56912345678">
+                    <input class = "inputValido" type="text" name="telefono" id="telefono" placeholder="56912345678" minlength="4" maxlength="14">
                 </div>
 
                 <div class="inputs">
                     <label for="email">E-mail</label><br>
-                    <input type="email" name="email" id="email" placeholder="mk.real@gmail.com" required>
+                    <input class = "inputValido" type="email" name="email" id="email" placeholder="mk.real@gmail.com" required>
                 </div>
 
                 <div class="inputs error">
                     <label for="password">Contraseña</label><br>
-                    <input class = "password" name="password" type="password" id="password" minlength="5" required>
+                    <input class = "inputValido" name="password" type="password" id="password" minlength="5" required>
                 </div>
 
                 <div class="inputs">
                     <label for="confirma_password">Confirma contraseña</label><br>
-                    <input class = "password" name="confirma_password" type="password" id="confirma_password" minlength="5" required>
+                    <input class = "inputValido" name="confirma_password" type="password" id="confirma_password" minlength="5" required>
                 </div>
             </fieldset>
 

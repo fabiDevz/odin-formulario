@@ -138,11 +138,18 @@ input {
 }
 
 
-input:focus{
+ .inputValido:focus{
     border:3px solid #0075FF;
     
+} 
+
+.inputInvalido:focus{
+    border:3px solid red;
 }
 
+.inputInvalido{
+    border:3px solid red;
+}
 
 
 
